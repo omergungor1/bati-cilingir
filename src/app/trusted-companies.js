@@ -5,12 +5,14 @@ import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 const COMPANIES = [
-  "coinbase",
-  "spotify",
-  "pinterest",
-  "google",
-  "amazon",
-  "netflix",
+  {
+    url: "/image/bft.webp",
+    alt: "Bft",
+  },
+  {
+    url: "/image/nice.png",
+    alt: "Nice",
+  },
 ];
 
 function TrustedCompany() {
@@ -18,22 +20,26 @@ function TrustedCompany() {
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
-          <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
-            AWESOME COMMUNITY
+          <Typography variant="h5" className="mb-4 uppercase !text-gray-500">
+            ÇÖZÜM ORTAKLARIMIZ
           </Typography>
-          <Typography variant="h2" color="blue-gray" className="mb-12">
-            Trusted by over 200+ Companies
+          <Typography variant="h2" color="blue-gray" className="mb-4">
+            Güvenilir Markalar
+          </Typography>
+
+          <Typography variant="h6" color="blue-gray" className="text-[#2f4858] mb-12">
+            Müşterilerimize en kaliteli hizmeti sunmak için güvenilir ve sektöründe lider markaların ürünlerini tercih ediyoruz. Çözüm ortaklarımızla kurduğumuz güçlü iş birliği sayesinde, güvenlik ve dayanıklılığı ön planda tutarak her projede en iyi sonuçları sağlamayı hedefliyoruz.
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10">
-          {COMPANIES.map((logo, key) => (
+          {COMPANIES.map(({ url, alt }, key) => (
             <Image
               width={768}
               height={768}
               key={key}
-              src={`/logos/logo-${logo}.svg`}
-              alt={logo}
-              className="w-40 grayscale opacity-75"
+              src={url}
+              alt={alt}
+              className="w-40 grayscale opacity-75 p-2"
             />
           ))}
         </div>

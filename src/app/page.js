@@ -13,16 +13,15 @@ import TrustedCompany from "./trusted-companies";
 
 export default function Campaign() {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
       <CoursesCategories />
-      <ExploreCourses />
-      <Testimonial />
       <Events />
+      <Testimonial />
       <StudentsFeedback />
       <TrustedCompany />
       <Footer />
-    </>
+    </div>
   );
 }

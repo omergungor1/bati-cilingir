@@ -7,24 +7,24 @@ import { Typography } from "@material-tailwind/react";
 const FEEDBACKS = [
   {
     feedback:
-      "The instructors are top-notch, and the hands-on approach to learning is incredibly effective.",
-    client: "Jessica Devis",
-    title: "Web Developer @ MARKETING DIGITAL LTD.",
-    img: "/image/avatar1.jpg",
+      "Kapıda kalınca hemen aradım. Çok hızlı geldiler ve kapıyı açtılar. İyiki varsınız.",
+    client: "Ayşe Yılmaz",
+    title: "Nilüfer çilingir Hizmeti",
+    img: "/image/kadın-profil.png",
   },
   {
     feedback:
-      "I went from knowing nothing about web development to landing my dream job as a frontend developer.",
-    client: "Linde Michel",
-    title: "Web Developer @ APPLE INC.",
-    img: "/image/avatar3.jpg",
+      "Araç anahtarım içeride kaldı. Kısa sürede gelip kapıyı açtılar. Yardımlarınız için teşekkürler.",
+    client: "Mehmet Kaya",
+    title: "Araba Kapısı Açma Hizmeti",
+    img: "/image/erkek-profil.png",
   },
   {
     feedback:
-      "The courses are structured well, and the projects helped me build a strong portfolio.",
-    client: "Misha Stam",
-    title: "Web Developer @ APPLE INC.",
-    img: "/image/avatar2.jpg",
+      "Bahçe kapıma anahtarsız geçiş sistemi kurulumu yapıldı ve çok memnun kaldım. Teşekkürler.",
+    client: "Fatma Demir",
+    title: "Kartlı Sistem Kurulumu",
+    img: "/image/kadın-profil.png",
   },
 ];
 
@@ -34,15 +34,13 @@ export function StudentsFeedback() {
       <div className="container mx-auto">
         <div className="mb-16 flex flex-col items-center w-full">
           <Typography variant="h2" color="blue-gray" className="mb-2">
-            What Our Students Are Saying
+            Müşterilerimiz Ne Diyor?
           </Typography>
           <Typography
             variant="lead"
             className="mb-10 max-w-3xl lg:text-center !text-gray-500"
           >
-            Our mission is to empower individuals with the knowledge and skills
-            they need to succeed in the world of web development. But don&apos;t
-            just take our word for it.
+            Müşteri memnuniyeti bizim için her şeyden önemli. İşte müşterilerimizin bize olan güvenini ve memnuniyetini ifade eden geri bildirimler.
           </Typography>
         </div>
         <div className="grid gap-x-8 gap-y-12 lg:px-32 grid-cols-1 md:grid-cols-3">

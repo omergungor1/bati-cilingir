@@ -4,14 +4,6 @@ import { Typography } from "@material-tailwind/react";
 import CourseCard from "@/components/course-card";
 
 const COURSES = [
-
-  // img: "/image/blogs/blog4.svg",
-  // {
-  //   img: "/image/blogs/blog4.svg",
-  //   tag: "",
-  //   title: "",
-  //   desc: "",
-  // },
   {
     img: "/image/blogs/blog4.svg",
     tag: "kartli-sistem-kurulumu",

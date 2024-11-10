@@ -19,7 +19,7 @@ export function CourseCard({ img, tag, title, desc }) {
           <Typography
             variant="small"
             color="blue"
-            className="mb-2 font-normal text-gray-500"
+            className="mb-2 font-normal  text-gray-500"
           >
             {tag}
           </Typography>
@@ -35,6 +35,7 @@ export function CourseCard({ img, tag, title, desc }) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
+        <Button className="bg-[#33658a]">Detaylı Bilgi</Button>
       </CardBody>
     </Card>
   );

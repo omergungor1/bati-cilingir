@@ -14,56 +14,66 @@ function TESTIMONIAL() {
               <Image
                 width={768}
                 height={768}
-                src="/image/blogs/blog6.svg"
-                alt="testimonial image"
+                src="/image/bursa.png"
+                alt="Bursa çilingir harita"
                 className="w-full h-full scale-110 object-cover"
               />
             </div>
             <div className="col-span-2 w-full">
               <Typography variant="h6" color="blue" className="mb-4">
-                ONLINE COURSE
+                BÖLGELERİMİZ
               </Typography>
               <Typography
                 variant="h3"
                 color="blue-gray"
                 className="mb-4 font-bold"
               >
-                Full-Stack Web Development
+                Bursa&apos;nın Tüm İlçe ve Mahallelerine Hizmetinizdeyiz
               </Typography>
               <Typography className="mb-1 w-full font-normal !text-gray-500">
-                Become a versatile developer by combining frontend and backend
-                skills. Build complete web applications from start to finish.
+                Bursa Batı Çilingir olarak yıllardır Bursa&apos;nın tüm ilçe ve mahallelerine hizmet vermekteyiz.
               </Typography>
               <div className="grid mb-4">
                 <div className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-gray-500 rounded-full" />
                   <Typography className="w-full font-normal !text-gray-500">
-                    International course collection in 10 languages
+                    Osmangazi Çilingir Anahtarcı
                   </Typography>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-gray-500 rounded-full" />
                   <Typography className="w-full font-normal !text-gray-500">
-                    Certified include
+                    Nilüfer Çilingir Anahtarcı
                   </Typography>
                 </div>
-              </div>
-              <div className="flex items-center mt-8 gap-4">
-                <Avatar
-                  variant="circular"
-                  src="/image/avatar3.jpg"
-                  alt="spotify"
-                  size="md"
-                />
-                <div>
-                  <Typography variant="h6" color="blue-gray" className="mb-0.5">
-                    Otto Gonzalez
+                <div className="flex items-center gap-2">
+                  <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                  <Typography className="w-full font-normal !text-gray-500">
+                    Yıldırım Çilingir Anahtarcı
                   </Typography>
-                  <Typography
-                    variant="small"
-                    className="font-normal !text-gray-500"
-                  >
-                    Senior Designer @company.com
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                  <Typography className="w-full font-normal !text-gray-500">
+                    Gürsu Çilingir Anahtarcı
+                  </Typography>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                  <Typography className="w-full font-normal !text-gray-500">
+                    Kestel Çilingir Anahtarcı
+                  </Typography>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                  <Typography className="w-full font-normal !text-gray-500">
+                    Mudanya Çilingir Anahtarcı
+                  </Typography>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                  <Typography className="w-full font-normal !text-gray-500">
+                    Gemlik Çilingir Anahtarcı
                   </Typography>
                 </div>
               </div>

@@ -76,7 +76,7 @@ export function Navbar() {
         >
           <div className="flex items-center justify-between">
             <Typography color="blue-gray" className="text-lg font-bold flex gap-1 items-center">
-              <KeyRound size={18} />Bursa Batı Çilingir
+              <KeyRound size={24} />Bursa Batı Çilingir
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
               {NAV_MENU.map(({ name, icon: Icon, href }) => (
