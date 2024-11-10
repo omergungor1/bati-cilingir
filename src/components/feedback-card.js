@@ -2,14 +2,7 @@ import React from "react";
 
 import { Typography, Card, CardBody, Avatar, Rating } from "@material-tailwind/react";
 
-interface FeedbackCardProps {
-  img: string;
-  feedback: string;
-  client: string;
-  title: string;
-}
-
-export function FeedbackCard({ img, feedback, client, title }: FeedbackCardProps) {
+export function FeedbackCard({ img, feedback, client, title }) {
   return (
     <Card shadow={false} className="items-start text-left">
       <CardBody>

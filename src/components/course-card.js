@@ -2,15 +2,7 @@ import { Typography, Card, CardBody, CardHeader, Button } from "@material-tailwi
 import Image from "next/image";
 
 
-interface CourseCardProps {
-  img: string;
-  tag: string;
-  title: string;
-  desc: string;
-  label: string;
-}
-
-export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
+export function CourseCard({ img, tag, title, desc, label }) {
   return (
     <Card className="border">
       <CardHeader className="h-64">

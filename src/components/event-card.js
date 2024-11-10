@@ -8,14 +8,8 @@ import {
   Button,
 } from "@material-tailwind/react";
 
-interface EventCardProps {
-  img: string;
-  title: string;
-  desc: string;
-  buttonLabel: string;
-}
 
-export function EventCard({ img, title, desc, buttonLabel }: EventCardProps) {
+export function EventCard({ img, title, desc, buttonLabel }) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">

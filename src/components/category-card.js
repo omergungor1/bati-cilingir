@@ -2,14 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Card, CardBody, Typography } from "@material-tailwind/react";
 
-interface CategoryCardProps {
-  img: string;
-  title: string;
-  desc: string;
-  icon: React.ElementType;
-}
-
-function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
+function CategoryCard({ img, title, desc, icon: Icon }) {
   return (
     <Card className="relative grid min-h-[12rem] w-full overflow-hidden">
       <Image

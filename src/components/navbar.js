@@ -31,12 +31,8 @@ const NAV_MENU = [
   },
 ];
 
-interface NavItemProps {
-  children: React.ReactNode;
-  href?: string;
-}
 
-function NavItem({ children, href }: NavItemProps) {
+function NavItem({ children, href }) {
   return (
     <li>
       <Typography
@@ -77,7 +73,7 @@ export function Navbar() {
         >
           <div className="flex items-center justify-between">
             <Typography color="blue-gray" className="text-lg font-bold">
-              Material Tailwind
+              Bursa Batı Çilingir
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
               {NAV_MENU.map(({ name, icon: Icon, href }) => (

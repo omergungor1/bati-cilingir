@@ -1,13 +1,7 @@
 import React from "react";
 import { Card, Typography } from "@material-tailwind/react";
 
-interface StatsCardProps {
-  icon: React.ElementType;
-  count: string;
-  title: string;
-}
-
-export function StatsCard({ icon: Icon, count, title }: StatsCardProps) {
+export function StatsCard({ icon: Icon, count, title }) {
   return (
     <Card color="transparent" shadow={false} className="items-center">
       <Icon className="h-7 w-7 text-gray-900" />

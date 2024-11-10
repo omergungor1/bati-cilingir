@@ -1,5 +1,5 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
 
@@ -9,17 +9,13 @@ const roboto = Roboto({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "NextJS Tailwind Course Landing Page",
   description:
     "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>

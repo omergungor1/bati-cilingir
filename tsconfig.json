@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/components/stats-card.js", "src/components/navbar.js", "src/components/layout.js", "src/components/footer.js", "src/components/fixed-plugin.js", "src/components/feedback-card.js", "src/components/event-card.js", "src/components/course-card.js", "src/components/category-card.js", "src/app/trusted-companies.js", "src/app/testimonial.js", "src/app/students-feedback.js", "src/app/page.js", "src/app/out-impressive-stats.js", "src/app/layout.js", "src/app/index.js", "src/app/hero.js", "src/app/explore-courses.js", "src/app/events.js", "src/app/courses-categories.js"  ],
   "exclude": [
     "node_modules"
   ]
