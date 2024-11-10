@@ -7,26 +7,29 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import {
-  RectangleStackIcon,
-  UserCircleIcon,
-  CommandLineIcon,
-  Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import { Phone, KeyRound, House, LockKeyhole, MapPin } from "lucide-react"
+
 
 const NAV_MENU = [
   {
-    name: "Page",
-    icon: RectangleStackIcon,
+    name: "Ana Sayfa",
+    icon: House,
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
+    name: "Hizmetlerimiz",
+    icon: LockKeyhole,
   },
   {
-    name: "Docs",
-    icon: CommandLineIcon,
+    name: "Bölgelerimiz",
+    icon: MapPin,
+    href: "https://www.material-tailwind.com/docs/react/installation",
+  },
+  {
+    name: "İletişim",
+    icon: Phone,
     href: "https://www.material-tailwind.com/docs/react/installation",
   },
 ];
@@ -72,24 +75,22 @@ export function Navbar() {
           className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6"
         >
           <div className="flex items-center justify-between">
-            <Typography color="blue-gray" className="text-lg font-bold">
-              Bursa Batı Çilingir
+            <Typography color="blue-gray" className="text-lg font-bold flex gap-1 items-center">
+              <KeyRound size={18} />Bursa Batı Çilingir
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
               {NAV_MENU.map(({ name, icon: Icon, href }) => (
                 <NavItem key={name} href={href}>
-                  <Icon className="h-5 w-5" />
+                  <Icon size={24} className="h-5 w-5" />
                   {name}
                 </NavItem>
               ))}
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
-              <Button variant="text">Log in</Button>
               <a
-                href="https://www.material-tailwind.com/blocks"
-                target="_blank"
+                href="tel:5426910157"
               >
-                <Button color="gray">Blocks</Button>
+                <Button className="flex gap-2 items-center !bg-[#f26419] "><Phone size={18} />Arayın</Button>
               </a>
             </div>
             <IconButton
@@ -110,18 +111,16 @@ export function Navbar() {
               <ul className="flex flex-col gap-4">
                 {NAV_MENU.map(({ name, icon: Icon, href }) => (
                   <NavItem key={name} href={href}>
-                    <Icon className="h-5 w-5" />
+                    <Icon size={24} className="h-5 w-5" />
                     {name}
                   </NavItem>
                 ))}
               </ul>
               <div className="mt-6 mb-4 flex items-center gap-4">
-                <Button variant="text">Log in</Button>
                 <a
-                  href="https://www.material-tailwind.com/blocks"
-                  target="_blank"
+                  href="tel:5426910157"
                 >
-                  <Button color="gray">blocks</Button>
+                  <Button className="flex gap-2 items-center !bg-[#f26419] "><Phone size={18} />Arayın</Button>
                 </a>
               </div>
             </div>

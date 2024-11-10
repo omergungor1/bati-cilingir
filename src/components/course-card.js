@@ -2,7 +2,7 @@ import { Typography, Card, CardBody, CardHeader, Button } from "@material-tailwi
 import Image from "next/image";
 
 
-export function CourseCard({ img, tag, title, desc, label }) {
+export function CourseCard({ img, tag, title, desc }) {
   return (
     <Card className="border">
       <CardHeader className="h-64">
@@ -35,7 +35,6 @@ export function CourseCard({ img, tag, title, desc, label }) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button variant="outlined">{label}</Button>
       </CardBody>
     </Card>
   );

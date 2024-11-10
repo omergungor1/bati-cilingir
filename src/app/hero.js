@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button, Typography, Card } from "@material-tailwind/react";
+import { Phone } from "lucide-react"
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
       <Image
         width={1200}
         height={1200}
-        src="/image/image8.svg"
+        src="/image/mainphoto.png"
         alt="bg-img"
         className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
       />
@@ -21,49 +22,24 @@ function Hero() {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              Unlock the Power of the Web with Our Expert Courses
+              Bursa Çilingir Hizmetleri
             </Typography>
-            <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
-              Are you ready to embark on an exciting journey into the world of
-              web development? Look no further! We are your trusted partner for
-              mastering the art of web development.
-            </Typography>
+            <h1 variant="lead" className="mb-10 mt-6 !text-gray-900 text-xl">Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. <span className=" font-bold">0542 691 01 57</span> numaralı telefondan bize ulaşarak, Bursa'nın her noktasına sadece 15 dakikada kapınızda olacağız.</h1>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray">view all courses</Button>
-              <Button color="gray" variant="outlined">
-                see pricing
-              </Button>
+              <a href="tel:5426910157" className="bg-[#f26419] rounded-lg px-5 py-3 text-white flex gap-2 items-center animate-pulse">
+                <Phone size={24} />
+                Hemen Ara
+              </a>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-pinterest.svg"
-                alt="pinterest"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-netflix.svg"
-                alt="netflix"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-coinbase.svg"
-                alt="coinbase"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-google.svg"
-                alt="google"
-              />
-            </div>
+
+            <Image
+              width={1024}
+              height={200}
+              className="opacity-90 hidden md:block"
+              src="/image/payments.webp"
+              alt="Bursa çilingir hizmetleri ödeme yöntemleri"
+            />
+
           </Card>
         </div>
       </div>
