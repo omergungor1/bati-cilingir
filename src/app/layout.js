@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "NextJS Tailwind Course Landing Page",
+  title: "Bursa Batı Çilingir | 7/24",
   description:
-    "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
+    "Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. 0542 691 01 57 numaralı telefondan bize ulaşarak, Bursa&apos;nın her noktasına sadece 15 dakikada kapınızda olacağız.",
 };
 
 export default function RootLayout({ children }) {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <head>
         <script
           defer
-          data-site="YOUR_DOMAIN_HERE"
+          data-site="https://www.bursabaticilingir.com"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
