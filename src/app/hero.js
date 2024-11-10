@@ -6,7 +6,7 @@ import { Phone } from "lucide-react"
 
 function Hero() {
   return (
-    <div className="!flex h-[55vh] w-full items-center justify-between px-10">
+    <div className="!flex h-[55vh] w-full items-center justify-between px-10 pt-20">
       <Image
         width={1200}
         height={1200}
