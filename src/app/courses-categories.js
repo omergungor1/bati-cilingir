@@ -47,7 +47,7 @@ export function CoursesCategories() {
           Hizmetlerimiz
         </Typography>
         <Typography variant="lead" className="!text-gray-500 md:w-8/12 lg:w-6/12">
-          Bursa&apos;da yıllardır hizmet veren köklü bir çilingir firması olarak geniş hizmet yelpazemizle, Bursa&apos;nın her noktasında hizmet veriyoruz. İhtiyaç halinde en kısa sürede yanınızdayız.
+          Bursa’da yıllardır hizmet veren köklü bir çilingir firması olarak geniş hizmet yelpazemizle, Bursa’nın her noktasında hizmet veriyoruz. İhtiyaç halinde en kısa sürede yanınızdayız.
         </Typography>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -67,7 +67,7 @@ export function CoursesCategories() {
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
             >
-              Bursa&apos;da çilingire ihtiyacınız varsa hemen bizimle iletişime geçin.
+              Bursa’da çilingire ihtiyacınız varsa hemen bizimle iletişime geçin.
             </Typography>
             <a
               href="tel:05426910157"

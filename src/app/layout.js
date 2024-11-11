@@ -12,7 +12,7 @@ const roboto = Roboto({
 export const metadata = {
   title: "Bursa Batı Çilingir | 7/24",
   description:
-    "Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. 0542 691 01 57 numaralı telefondan bize ulaşarak, Bursa&apos;nın her noktasına sadece 15 dakikada kapınızda olacağız.",
+    "Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. 0542 691 01 57 numaralı telefondan bize ulaşarak, Bursa’nın her noktasına sadece 15 dakikada kapınızda olacağız.",
 };
 
 export default function RootLayout({ children }) {
@@ -20,13 +20,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ9GRDE8L6"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-KZ9GRDE8L6');
-        </script>
+        <script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KZ9GRDE8L6', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        ></script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={roboto.className}>

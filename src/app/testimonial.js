@@ -28,10 +28,10 @@ function TESTIMONIAL() {
                 color="blue-gray"
                 className="mb-4 font-bold"
               >
-                Bursa&apos;nın Tüm İlçe ve Mahallelerine Hizmetinizdeyiz
+                Bursa’nın Tüm İlçe ve Mahallelerine Hizmetinizdeyiz
               </Typography>
               <Typography className="mb-1 w-full font-normal !text-gray-500">
-                Bursa Batı Çilingir olarak yıllardır Bursa&apos;nın tüm ilçe ve mahallelerine hizmet vermekteyiz.
+                Bursa Batı Çilingir olarak yıllardır Bursa’nın tüm ilçe ve mahallelerine hizmet vermekteyiz.
               </Typography>
               <div className="grid mb-4">
                 <div className="flex items-center gap-2">
