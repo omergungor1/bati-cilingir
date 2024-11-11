@@ -6,7 +6,7 @@ import { Typography, Card, CardBody, Avatar } from "@material-tailwind/react";
 
 function TESTIMONIAL() {
   return (
-    <section className="px-8 py-40">
+    <section className="px-8 py-40" id="bolgelerimiz">
       <div className="container mx-auto">
         <Card color="transparent" shadow={false} className="">
           <CardBody className="col-span-full gap-10 place-items-center overflow-visible grid grid-cols-1 lg:grid-cols-4">

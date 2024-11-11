@@ -6,7 +6,7 @@ import { Phone } from "lucide-react"
 
 function Hero() {
   return (
-    <div className="!flex h-[55vh] w-full items-center justify-between px-10 pt-20">
+    <div className="!flex h-[55vh] w-full items-center justify-between px-10 pt-20" id="anasayfa">
       <Image
         width={1200}
         height={1200}
@@ -26,7 +26,7 @@ function Hero() {
             </Typography>
             <h1 variant="lead" className="mb-10 mt-6 !text-gray-900 text-xl">Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. <span className=" font-bold">0542 691 01 57</span> numaralı telefondan bize ulaşarak, Bursa&apos;nın her noktasına sadece 15 dakikada kapınızda olacağız.</h1>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <a href="tel:5426910157" className="bg-[#f26419] rounded-lg px-5 py-3 text-white flex gap-2 items-center animate-pulse">
+              <a href="tel:05426910157" className="bg-[#f26419] rounded-lg px-5 py-3 text-white flex gap-2 items-center animate-pulse">
                 <Phone size={24} />
                 Hemen Ara
               </a>

@@ -10,6 +10,7 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import Link from 'next/link';
 import { Phone, KeyRound, House, LockKeyhole, MapPin } from "lucide-react"
 
 
@@ -17,20 +18,22 @@ const NAV_MENU = [
   {
     name: "Ana Sayfa",
     icon: House,
+    href: "/#anasayfa",
   },
   {
     name: "Hizmetlerimiz",
     icon: LockKeyhole,
+    href: "/#hizmetlerimiz"
   },
   {
     name: "Bölgelerimiz",
     icon: MapPin,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    href: "/#bolgelerimiz",
   },
   {
     name: "İletişim",
     icon: Phone,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    href: "/#iletisim",
   },
 ];
 
@@ -38,18 +41,24 @@ const NAV_MENU = [
 function NavItem({ children, href }) {
   return (
     <li>
-      <Typography
-        as="a"
-        href={href || "#"}
-        target={href ? "_blank" : "_self"}
-        variant="paragraph"
-        color="gray"
-        className="flex items-center gap-2 font-medium text-gray-900"
-      >
-        {children}
-      </Typography>
+      <Link href={href || "#"} passHref>
+        <p className="flex items-center gap-2 font-medium text-gray-900">
+          {children}
+        </p>
+      </Link>
     </li>
   );
+  //     <Typography
+  //       href={href || "#"}
+  //       target={href ? "_blank" : "_self"}
+  //       variant="paragraph"
+  //       color="gray"
+  //       className="flex items-center gap-2 font-medium text-gray-900"
+  //     >
+  //       {children}
+  //     </Typography>
+  //   </li>
+  // );
 }
 
 export function Navbar() {
@@ -88,7 +97,7 @@ export function Navbar() {
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
               <a
-                href="tel:5426910157"
+                href="tel:05426910157"
               >
                 <Button className="flex gap-2 items-center !bg-[#f26419] "><Phone size={18} />Arayın</Button>
               </a>
@@ -118,7 +127,7 @@ export function Navbar() {
               </ul>
               <div className="mt-6 mb-4 flex items-center gap-4">
                 <a
-                  href="tel:5426910157"
+                  href="tel:05426910157"
                 >
                   <Button className="flex gap-2 items-center !bg-[#f26419] "><Phone size={18} />Arayın</Button>
                 </a>

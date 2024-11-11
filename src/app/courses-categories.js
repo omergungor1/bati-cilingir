@@ -43,7 +43,7 @@ export function CoursesCategories() {
   return (
     <section className="container mx-auto px-8 py-36 pt-72">
       <div className="mb-20 grid place-items-center text-center">
-        <Typography variant="h2" color="blue-gray" className="my-3">
+        <Typography variant="h2" color="blue-gray" className="my-3" id="hizmetlerimiz" >
           Hizmetlerimiz
         </Typography>
         <Typography variant="lead" className="!text-gray-500 md:w-8/12 lg:w-6/12">
@@ -70,7 +70,7 @@ export function CoursesCategories() {
               Bursa&apos;da çilingire ihtiyacınız varsa hemen bizimle iletişime geçin.
             </Typography>
             <a
-              href="tel:5426910157"
+              href="tel:05426910157"
             >
               <Button size="sm" color="white">Şimdi Ara</Button>
             </a>

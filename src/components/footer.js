@@ -21,11 +21,10 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="px-8 pt-24 pb-8">
+    <footer className="px-8 pt-24 pb-8" id="iletisim">
       <div className="container max-w-6xl flex flex-col mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 !w-full ">
-          <div className="flex col-span-2 items-center gap-10 mb-10 lg:mb-0 md:gap-36">
-
+          <div className="flex col-span-1 items-center gap-10 mb-10 lg:mb-0 md:gap-36">
             <ul>
               <Typography variant="h6" color="blue-gray" className="mb-4">
                 İLETİŞİM
@@ -60,85 +59,13 @@ export function Footer() {
                   </div>
                 </Typography>
               </li>
-
             </ul>
-            {/**
-             <ul>
-              <Typography variant="h6" color="blue-gray" className="mb-4">
-                HİZMETLERİMİZ
-              </Typography>
-
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Tüm çilingir hizmetleri
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Kartlı sistem kurulumu
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Parmak izi ile geçiş sistemi kurulumu
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Otomatik otopark geçiş sitem kurulumu
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Otomatik bahçe kapı sistem kurulumu
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Çelik kasa açma
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Araç kapısı açma
-                </Typography>
-              </li>
-
-            </ul>
-             */}
+          </div>
+          <div className="flex col-span-1 items-center gap-10 mb-10 lg:mb-0 md:gap-36">
             <ul>
               <Typography variant="h6" color="blue-gray" className="mb-4">
                 BÖLGELER
               </Typography>
-
               <li>
                 <Typography
                   as="a"

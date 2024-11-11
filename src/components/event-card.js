@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link';
 import {
   Typography,
   Card,
@@ -9,7 +10,7 @@ import {
 } from "@material-tailwind/react";
 
 
-export function EventCard({ img, title, desc, buttonLabel }) {
+export function EventCard({ img, title, desc, buttonLabel, url }) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
@@ -33,9 +34,11 @@ export function EventCard({ img, title, desc, buttonLabel }) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button className="bg-[#33658a]" size="sm">
-          {buttonLabel}
-        </Button>
+        <Link href={url}>
+          <Button className="bg-[#33658a]" size="sm">
+            {buttonLabel}
+          </Button>
+        </Link>
       </CardBody>
     </Card>
   );
