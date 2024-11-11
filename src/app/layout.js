@@ -19,11 +19,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script
-          defer
-          data-site="https://www.bursabaticilingir.com"
-          src="https://api.nepcha.com/js/nepcha-analytics.js"
-        ></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ9GRDE8L6"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-KZ9GRDE8L6');
+        </script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={roboto.className}>
