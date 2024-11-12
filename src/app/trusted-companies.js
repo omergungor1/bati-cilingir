@@ -13,6 +13,26 @@ const COMPANIES = [
     url: "/image/nice.png",
     alt: "Nice",
   },
+  {
+    url: "/image/kale.png",
+    alt: "Kale",
+  },
+  {
+    url: "/image/doras.png",
+    alt: "Doras",
+  },
+  {
+    url: "/image/yuma.png",
+    alt: "Yuma",
+  },
+  {
+    url: "/image/philips.webp",
+    alt: "Philips",
+  },
+  {
+    url: "/image/desi.png",
+    alt: "Desi",
+  },
 ];
 
 function TrustedCompany() {
