@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ9GRDE8L6"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PKMW7FKLT"></script>
         <script
           id="google-analytics"
           strategy="afterInteractive"
