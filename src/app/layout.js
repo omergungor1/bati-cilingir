@@ -10,9 +10,14 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Bursa Batı Çilingir | 7/24",
+  title: "Bursa Batı Çilingir | 400TL Kilit Açma | Bursa",
   description:
-    "Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. 0542 691 01 57 numaralı telefondan bize ulaşarak, Bursa’nın her noktasına sadece 15 dakikada kapınızda olacağız.",
+    "Bursa Batı Çilingir, ekonomik fiyatlarla kapı açma, anahtar değişimi, kasa açma ve oto çilingir hizmetleri sunuyoruz. 7/24 acil çilingir hizmeti. 0542 691 01 57 numaralı telefondan bize ulaşabilirsiniz. Bursa ekonomik çilingir.",
+  image: "/image/blogs/cilingir.png",
+  url: "https://www.bursabaticilingir.com",
+  type: "website",
+  siteName: "Bursa Batı Çilingir | 400TL Kilit Açma | Bursa",
+  keywords: "Bursa çilingir, Bursa ekonomik çilingir, Bursa acil çilingir, Bursa anahtarcı, Bursa çilingir hizmetleri,Bursa kapı açma, Bursa oto çilingir, Bursa çelik kasa açma, Bursa uygun fiyat çilingir",
 };
 
 export default function RootLayout({ children }) {
@@ -34,7 +39,7 @@ export default function RootLayout({ children }) {
           `,
           }}
         ></script>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={roboto.className}>
         <Layout>
