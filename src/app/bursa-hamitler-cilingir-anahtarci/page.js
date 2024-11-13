@@ -31,7 +31,7 @@ export default function Blog() {
                                     Bursa Hamitler Acil Çilingir | 7/24 Hızlı, Ekonomik ve Güvenilir Çilingir
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-800">
-                                    <b>Bursa Hamitler Çilingir Anahtarcı</b> hizmetleriyle güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan 7/24 acil çilingir hizmetimize ulaşabilir, Bursa'nın her noktasına 15 dakika içinde kapınıza gelmemizi sağlayabilirsiniz.
+                                    <b>Bursa Hamitler Çilingir Anahtarcı</b> hizmetleriyle güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan 7/24 acil çilingir hizmetimize ulaşabilir, Bursa’nın her noktasına 15 dakika içinde kapınıza gelmemizi sağlayabilirsiniz.
                                     <br /><br />
                                     <b>Bursa Hamitler Çilingir Anahtarcı</b> olarak, size en yakın çilingir ekibimiz anında yanınızda. Oto çilingir ve kapı açma ihtiyaçlarınızı hızlı ve profesyonel çözümlerle karşılıyoruz.
                                     <br /><br />
