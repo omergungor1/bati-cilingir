@@ -4,7 +4,7 @@ import { Card, CardBody, Typography } from "@material-tailwind/react";
 
 function CategoryCard({ img, title, desc, icon: Icon }) {
   return (
-    <Card className="relative grid min-h-[12rem] w-full overflow-hidden">
+    <Card className="relative grid min-h-[14rem] w-full overflow-hidden">
       <Image
         width={768}
         height={768}

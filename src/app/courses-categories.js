@@ -7,7 +7,7 @@ import {
   Card,
   CardBody,
 } from "@material-tailwind/react";
-import { Lock, Fingerprint, Car, Vault } from "lucide-react";
+import { Lock, Fingerprint, Car, Vault, Dot } from "lucide-react";
 
 import CategoryCard from "@/components/category-card";
 
@@ -44,7 +44,7 @@ export function CoursesCategories() {
     <section className="container mx-auto px-8 py-36 pt-72">
       <div className="mb-20 grid place-items-center text-center">
         <Typography variant="h2" color="blue-gray" className="my-3" id="hizmetlerimiz" >
-          Hizmetlerimiz
+          Hizmetlerimize Göz Atın
         </Typography>
         <Typography variant="lead" className="!text-gray-500 md:w-8/12 lg:w-6/12">
           Bursa’da yıllardır hizmet veren köklü bir çilingir firması olarak geniş hizmet yelpazemizle, Bursa’nın her noktasında hizmet veriyoruz. İhtiyaç halinde en kısa sürede yanınızdayız.
@@ -65,10 +65,54 @@ export function CoursesCategories() {
             </Typography>
             <Typography
               color="white"
-              className="mt-4 mb-14 font-normal opacity-50"
+              className="mt-4 font-normal opacity-50"
             >
               Bursa’da çilingire ihtiyacınız varsa hemen bizimle iletişime geçin.
             </Typography>
+            <h6 className="text-sm font-thin mb-8 opacity-50 grid grid-cols-2">
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Kapı Açma
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Kasa Açma
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Anahtar Kopyalama
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Oto Anahtar
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Çilingir
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Oto Çilingir
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Kilit Değişimi
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Kapı Kilidi
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Kilit Açma
+              </div>
+              <div className="flex items-center">
+                <Dot size={12} />Bursa Kilit Değiştirme
+              </div>
+              <div className="col-span-2 flex items-center">
+                <Dot size={12} />Bursa Kartlı Geçiş Sistemleri
+              </div>
+              <div className="col-span-2 flex items-center">
+                <Dot size={12} />Bursa Anahtar Değişimi
+              </div>
+              <div className="col-span-2 flex items-center">
+                <Dot size={12} />Bursa Kumanda Çoğaltma
+              </div>
+              <div className="col-span-2 flex items-center">
+                <Dot size={12} />Bursa Çelik Kasa Açma
+              </div>
+            </h6>
             <a
               href="tel:05426910157"
             >
@@ -92,3 +136,4 @@ export function CoursesCategories() {
 }
 
 export default CoursesCategories;
+

@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { Typography, Card, CardBody, Button } from "@material-tailwind/react";
 import { Phone } from "lucide-react";
