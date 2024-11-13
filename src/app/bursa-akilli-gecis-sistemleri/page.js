@@ -18,7 +18,7 @@ export default function Blog() {
                                     width={768}
                                     height={768}
                                     src={'/image/blogs/8.png'}
-                                    alt={alt}
+                                    alt={"Akıllı Geçiş Sistemleri | Bursa"}
                                     className="w-full h-full scale-110 object-cover"
                                 />
                             </div>

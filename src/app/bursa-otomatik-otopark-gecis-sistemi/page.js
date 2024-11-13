@@ -19,7 +19,7 @@ export default function Blog() {
                                     width={768}
                                     height={768}
                                     src={"/image/blogs/4.png"}
-                                    alt={alt}
+                                    alt={"Bursa Otomatik Otopark Geçiş Sistemi Kurulumu | Hızlı ve Güvenilir"}
                                     className="w-full h-full scale-110 object-cover"
                                 />
                             </div>

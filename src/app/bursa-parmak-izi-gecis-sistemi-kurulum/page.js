@@ -20,7 +20,7 @@ export default function Blog() {
                                     width={768}
                                     height={768}
                                     src={"/image/blogs/3.png"}
-                                    alt={alt}
+                                    alt={"Bursa Parmak İzi ile Geçiş Sistemi Kurulumu | Yüksek Güvenlik"}
                                     className="w-full h-full scale-110 object-cover"
                                 />
                             </div>
