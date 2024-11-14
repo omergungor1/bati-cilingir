@@ -41,7 +41,7 @@ const CATEGORIES = [
 
 export function CoursesCategories() {
   return (
-    <section className="container mx-auto px-8 py-36 pt-72">
+    <section className="container mx-auto px-8 py-36 pt-96">
       <div className="mb-20 grid place-items-center text-center">
         <Typography variant="h2" color="blue-gray" className="my-3" id="hizmetlerimiz" >
           Hizmetlerimize Göz Atın

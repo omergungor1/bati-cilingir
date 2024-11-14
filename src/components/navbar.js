@@ -48,17 +48,6 @@ function NavItem({ children, href }) {
       </Link>
     </li>
   );
-  //     <Typography
-  //       href={href || "#"}
-  //       target={href ? "_blank" : "_self"}
-  //       variant="paragraph"
-  //       color="gray"
-  //       className="flex items-center gap-2 font-medium text-gray-900"
-  //     >
-  //       {children}
-  //     </Typography>
-  //   </li>
-  // );
 }
 
 export function Navbar() {
@@ -119,7 +108,7 @@ export function Navbar() {
             <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
               <ul className="flex flex-col gap-4">
                 {NAV_MENU.map(({ name, icon: Icon, href }) => (
-                  <NavItem key={name} href={href}>
+                  <NavItem key={name} href={href} setOpen={setOpen}>
                     <Icon size={24} className="h-5 w-5" />
                     {name}
                   </NavItem>

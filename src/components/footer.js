@@ -1,5 +1,6 @@
 import { Typography, Button, Input } from "@material-tailwind/react";
 import { KeyRound, Instagram, Facebook } from "lucide-react"
+import Link from 'next/link';
 
 
 const LINKS = [
@@ -30,13 +31,12 @@ export function Footer() {
                 İLETİŞİM
               </Typography>
               <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Telefon: 0542 691 01 57
-                </Typography>
+                <a href="tel:05426910157">
+                  <Typography
+                    className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900">
+                    Telefon: 0542 691 01 57
+                  </Typography>
+                </a>
               </li>
               <li>
                 <Typography
@@ -67,49 +67,74 @@ export function Footer() {
                 BÖLGELER
               </Typography>
               <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Osmangazi Çilingir Anahtarcı
-                </Typography>
+                <Link href={"/bursa-osmangazi-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Osmangazi Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
               </li>
               <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Nilüfer Çilingir Anahtarcı
-                </Typography>
+                <Link href={"/bursa-nilufer-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Nilüfer Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
               </li>
               <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Yıldırım Çilingir Anahtarcı
-                </Typography>
+                <Link href={"/bursa-yildirim-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Yıldırım Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
               </li>
               <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Gürsu Çilingir Anahtarcı
-                </Typography>
+                <Link href={"/bursa-gursu-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Gürsu Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
               </li>
               <li>
-                <Typography
-                  as="a"
-                  href="#"
-                  className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
-                >
-                  Kestel Çilingir Anahtarcı
-                </Typography>
+                <Link href={"/bursa-kestel-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Kestel Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link href={"/bursa-emek-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Emek Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link href={"/bursa-mudanya-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+
+                    <Typography className="w-full font-normal !text-gray-700">
+                      Mudanya Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
               </li>
             </ul>
 

@@ -34,7 +34,6 @@ function TESTIMONIAL() {
                 Bursa Batı Çilingir olarak yıllardır Bursa’nın tüm ilçe ve mahallelerine hizmet vermekteyiz.
               </Typography>
               <div className="grid mb-4">
-
                 <Link href={"/bursa-osmangazi-cilingir-anahtarci"}>
                   <div className="flex items-center gap-2">
                     <span className="h-1 w-1 bg-gray-500 rounded-full" />
@@ -71,7 +70,15 @@ function TESTIMONIAL() {
                   <div className="flex items-center gap-2">
                     <span className="h-1 w-1 bg-gray-500 rounded-full" />
                     <Typography className="w-full font-normal !text-gray-500">
-                      Bursa kestel Çilingir Anahtarcı
+                      Bursa Kestel Çilingir Anahtarcı
+                    </Typography>
+                  </div>
+                </Link>
+                <Link href={"/bursa-emek-cilingir-anahtarci"}>
+                  <div className="flex items-center gap-2">
+                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                    <Typography className="w-full font-normal !text-gray-500">
+                      Bursa Emek Çilingir Anahtarcı
                     </Typography>
                   </div>
                 </Link>
@@ -91,249 +98,235 @@ function TESTIMONIAL() {
                     </Typography>
                   </div>
                 </Link>
-                <Link href={"/bursa-kayapa-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Kayapa Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-akcalar-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Akçalar Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-kizilcikli-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Kızılcıklı Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-panayir-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Panayır Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-hamitler-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Hamitler Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-fethiye-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Fethiye Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-mesken-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Mesken Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-heykel-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Heykel Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-hamitler-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Hamitler Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-millet-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Millet Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-baglarbasi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Bağlarbaşı Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-emek-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Emek Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-demirtas-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Demirtaş Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-yunuseli-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Yunuseli Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-ihsaniye-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa İhsaniye Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-kestel-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Kestel Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-erikli-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Erikli Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-millet-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Millet Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-ozluce-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Özlüce Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-gorukle-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Görükle Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-balat-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Balat Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-dikkaldirim-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Dikkaldırım Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-cekirge-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Çekirge Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-besevler-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Beşevler Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-soganli-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Soğanlı Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-altiparmak-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Altiparmak Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-kukurtlu-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Kükürtlü Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-yesilyayla-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Yeşilyayla Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-zumrutevler-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Zumrutevler Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
-                <Link href={"/bursa-degirmenlikizik-mahallesi-cilingir-anahtarci"}>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                    <Typography className="w-full font-normal !text-gray-500">
-                      Bursa Değirmenlikızık Mahallesi Çilingir Anahtarcı
-                    </Typography>
-                  </div>
-                </Link>
               </div>
             </div>
           </CardBody>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full">
+            <Link href={"/bursa-kayapa-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Kayapa Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-akcalar-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Akçalar Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-kizilcikli-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Kızılcıklı Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-panayir-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Panayır Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-hamitler-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Hamitler Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-fethiye-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Fethiye Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-mesken-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Mesken Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-heykel-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Heykel Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-hamitler-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Hamitler Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-millet-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Millet Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-baglarbasi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Bağlarbaşı Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-demirtas-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Demirtaş Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-yunuseli-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Yunuseli Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-ihsaniye-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa İhsaniye Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-erikli-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Erikli Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-millet-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Millet Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-ozluce-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Özlüce Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-gorukle-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Görükle Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-balat-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Balat Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-dikkaldirim-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Dikkaldırım Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-cekirge-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Çekirge Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-besevler-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Beşevler Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-soganli-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Soğanlı Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-altiparmak-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Altiparmak Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-kukurtlu-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Kükürtlü Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-yesilyayla-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Yeşilyayla Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-zumrutevler-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Zumrutevler Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+            <Link href={"/bursa-degirmenlikizik-mahallesi-cilingir-anahtarci"}>
+              <div className="flex items-center gap-2">
+                <span className="h-1 w-1 bg-gray-500 rounded-full" />
+                <Typography className="w-full font-normal !text-gray-500">
+                  Bursa Değirmenlikızık Çilingir Anahtarcı
+                </Typography>
+              </div>
+            </Link>
+          </div>
         </Card>
       </div>
     </section>

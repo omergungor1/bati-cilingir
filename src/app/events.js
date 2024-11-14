@@ -89,15 +89,14 @@ const EVENTS = [
 
 export function Events() {
   return (
-    <section className="py-20 px-8">
-      <div className="container mx-auto mb-20 text-center">
+    <section className="py-10 px-8">
+      <div className="container mx-auto mb-10 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
           Tüm Hizmetlerimizi Keşfedin
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
-        >
+          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12" >
           Yıllardır Bursa’da çilingir hizmetlerinde en önde gelen firmalardan biri olarak hizmet veriyoruz. Danışmak, bilgi almak veya hizmet almak için bizimle iletişime geçebilirsiniz.
         </Typography>
       </div>
