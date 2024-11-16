@@ -25,7 +25,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Metadata {...metadata} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PKMW7FKLT"></script>
         <script
           id="google-analytics"
