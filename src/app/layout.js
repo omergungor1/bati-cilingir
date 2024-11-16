@@ -13,7 +13,10 @@ export const metadata = {
   title: "Bursa Çilingir ve Anahtarcı | Ekonomik Çilingir Hizmetleri| Bursa",
   description:
     "Bursa Batı Çilingir, ekonomik fiyatlarla kapı açma, anahtar değişimi, kasa açma ve oto çilingir hizmetleri sunuyoruz. 7/24 acil çilingir hizmeti. 0542 691 01 57 numaralı telefondan bize ulaşabilirsiniz. Bursa ekonomik çilingir.",
-  image: "/favicon.ico",
+  image: "/image/blogs/cilingir.png",
+  icon: "/favicon.ico",
+  locale: "tr_TR",
+  logo: "/cilingir2.png",
   url: "https://www.bursabaticilingir.com",
   type: "website",
   siteName: "Bursa Çilingir ve Anahtarcı | Ekonomik Çilingir Hizmetleri| Bursa",
