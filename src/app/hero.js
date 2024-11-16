@@ -14,17 +14,22 @@ function Hero() {
         alt="bg-img"
         className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
       />
-      <div className="container mx-auto mt-28">
+      <div className="container mx-auto mt-32">
         <div className="grid grid-cols-12 text-center lg:text-left">
           <Card className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
             <Typography
               variant="h1"
               color="blue-gray"
-              className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
-            >
+              className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl">
               Bursa Çilingir Hizmetleri
             </Typography>
-            <h1 variant="lead" className="mb-10 mt-6 !text-gray-900 text-xl">Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. <span className=" font-bold">0542 691 01 57</span> numaralı telefondan bize ulaşarak, Bursa’nın her noktasına sadece 15 dakikada kapınızda olacağız.</h1>
+            <Typography
+              variant="h2"
+              color="blue-gray"
+              className="mt-2 lg:text-2xl !leading-snug text-xl lg:max-w-xl">
+              Kilidi bırakın, bizi arayın!
+            </Typography>
+            <h2 variant="lead" className="mb-10 mt-4 !text-gray-900 text-xl">Bursa Batı Çilingir olarak 7/24 acil çilingir hizmeti sunuyoruz. <span className=" font-bold">0542 691 01 57</span> numaralı telefondan bize ulaşarak, Bursa’nın her noktasına sadece 15 dakikada kapınızda olacağız.</h2>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
               <a href="tel:05426910157" className="bg-[#f26419] rounded-lg px-5 py-3 text-white flex gap-2 items-center animate-pulse">
                 <Phone size={24} />

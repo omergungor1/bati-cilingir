@@ -84,6 +84,22 @@ const EVENTS = [
     buttonLabel: "Detaylı Bilgi",
     url: "/bursa-akilli-gecis-sistemleri",
     alt: "Akıllı Geçiş Sistemleri ve İşletmelere Faydaları"
+  },
+  {
+    img: "/image/blogs/11.jpg",
+    title: "Göster Geç Sistemi Nedir? | Bursa Göster Geç Sistemi Kurulumu",
+    desc: "Bursa’da göstergeç sistemleri kuruyoruz. Ev ve işletmelerin giriş-çıkışlarını kontrol altına almak için kullanılan göstergeç sistemleri hakkında detaylı bilgi almak için tıklayın.",
+    buttonLabel: "Detaylı Bilgi",
+    url: "/bursa-gostergec-sistemleri",
+    alt: "Göstergeç Sistemi Nedir? | Bursa Göstergeç Sistemi Kurulumu"
+  },
+  {
+    img: "/image/blogs/12.jpg",
+    title: "Kapı hidrolik kapatıcı montajı | Bursa Kapı Hidrolik Kapatıcı Montajı",
+    desc: "Bursa’da kapı hidrolik kapatıcı montajı hizmeti sunuyoruz. Kapılarınızın daha sessiz ve güvenli kapanmasını sağlayan hidrolik kapatıcılarla ilgili detaylı bilgi almak için tıklayın.",
+    buttonLabel: "Detaylı Bilgi",
+    url: "/bursa-hidrolik-kapatici-montaji",
+    alt: "Kapı hidrolik kapatıcı montajı | Bursa Kapı Hidrolik Kapatıcı Montajı"
   }
 ];
 
