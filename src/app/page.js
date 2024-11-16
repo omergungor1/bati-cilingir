@@ -6,6 +6,7 @@ import Testimonial from "./testimonial";
 import Events from "./events";
 import StudentsFeedback from "./students-feedback";
 import TrustedCompany from "./trusted-companies";
+import ImageGalery from "./image-galery";
 
 export default function Campaign() {
   return (
@@ -17,6 +18,7 @@ export default function Campaign() {
       <Testimonial />
       <StudentsFeedback />
       <TrustedCompany />
+      <ImageGalery />
       <Footer />
     </div>
   );
