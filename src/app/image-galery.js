@@ -35,7 +35,7 @@ function ImageGalery() {
                                     width={300}
                                     height={300}
                                     src="/image/galery/Image1.jpeg"
-                                    alt="bg-img"
+                                    alt="bursa-cilingir-anahtarcı"
                                     className="w-[300px] h-[500px] rounded-md object-cover object-center"
                                 />
                             </CarouselItem>
@@ -44,7 +44,7 @@ function ImageGalery() {
                                     width={300}
                                     height={300}
                                     src="/image/galery/Image2.jpeg"
-                                    alt="bg-img"
+                                    alt="bursa-cilingir-anahtarcı"
                                     className="w-[300px] h-[500px] rounded-md object-cover object-center"
                                 />
                             </CarouselItem>
@@ -53,7 +53,7 @@ function ImageGalery() {
                                     width={300}
                                     height={300}
                                     src="/image/galery/Image3.jpeg"
-                                    alt="bg-img"
+                                    alt="bursa-cilingir-anahtarcı"
                                     className="w-[300px] h-[500px] rounded-md object-cover object-center"
                                 />
                             </CarouselItem>
@@ -62,7 +62,7 @@ function ImageGalery() {
                                     width={300}
                                     height={300}
                                     src="/image/galery/Image4.jpeg"
-                                    alt="bg-img"
+                                    alt="bursa-cilingir-anahtarcı"
                                     className="w-[300px] h-[500px] rounded-md object-cover object-center"
                                 />
                             </CarouselItem>
@@ -71,7 +71,7 @@ function ImageGalery() {
                                     width={300}
                                     height={300}
                                     src="/image/galery/Image5.jpeg"
-                                    alt="bg-img"
+                                    alt="bursa-cilingir-anahtarcı"
                                     className="w-[300px] h-[500px] rounded-md object-cover object-center"
                                 />
                             </CarouselItem>
