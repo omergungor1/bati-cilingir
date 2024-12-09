@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Typography, Card, CardBody, Button } from "@material-tailwind/react";
 import { Phone } from "lucide-react";
+import Head from 'next/head';
 // components
 import { Navbar, Footer } from "@/components";
 
