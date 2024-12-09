@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PKMW7FKLT"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16776080034"></script>
         <script
           id="google-analytics"
           strategy="afterInteractive"
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'AW-16776080034');
             gtag('config', 'G-3PKMW7FKLT', {
               page_path: window.location.pathname,
             });
