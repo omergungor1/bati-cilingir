@@ -2,12 +2,21 @@
 import Image from "next/image";
 import { Typography, Card, CardBody, Button } from "@material-tailwind/react";
 import { Phone } from "lucide-react";
+import Head from 'next/head';
 // components
 import { Navbar, Footer } from "@/components";
 
 export default function Blog() {
     return (
         <div>
+            <Head>
+                <title>Bursa Görükle Çilingir Anahtarcı | 7/24 Çilingir Hizmeti</title>
+                <meta name="description" content="Bursa Görükle Çilingir Anahtarcı, güvenilir ve uygun fiyatlı 7/24 çilingir hizmeti sunuyor. Kapı açma, oto çilingir, anahtar çoğaltma ve daha fazlası." />
+                <meta name="keywords" content="Bursa çilingir, Görükle çilingir, acil çilingir, oto çilingir, anahtar çoğaltma, kapı açma" />
+                <meta property="og:title" content="Bursa Görükle Çilingir Anahtarcı | 7/24 Çilingir Hizmeti" />
+                <meta property="og:description" content="Bursa Görükle Çilingir Anahtarcı ile güvenli, hızlı ve uygun fiyatlı çilingir hizmetleri. 7/24 kapı açma ve oto çilingir hizmeti." />
+                <meta property="og:url" content="https://www.bursabaticilingir.com/bursa-gorukle-mahallesi-cilingir-anahtarci" />
+            </Head>
             <Navbar />
             <section className="px-8 py-40">
                 <div className="container mx-auto">
