@@ -30,9 +30,9 @@ export default function Blog() {
                                     Bursa Araç Kapısı Açma Hizmeti | Oto Çilingir Çözümleri
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-500">
-                                    Anahtarınızı aracın içinde unuttuğunuzda ya da anahtarınız kaybolduğunda, araç kapısı açma hizmetleri hızlı bir çözüm sunar. Bursa’da sunduğumuz bu hizmetle, aracınızın kapısını güvenli bir şekilde açarak hasar riskini minimuma indiriyoruz. Profesyonel ekipman ve deneyimle, araç kapısı açma işlemlerini marka ve model gözetmeksizin kısa sürede tamamlıyoruz.
+                                    Anahtarınızı aracın içinde unuttuysanız veya kaybettiyseniz, araç kapısı açma hizmetimiz hızlı ve güvenli bir çözüm sunar. Bursa’da sunduğumuz bu hizmetle, aracınızın kapısını hasar riski oluşturmadan açıyoruz. Deneyimli ekibimiz ve profesyonel ekipmanlarımız sayesinde marka ve model fark etmeksizin kısa sürede işlem gerçekleştiriyoruz.
                                     <br /><br />
-                                    Acil durumlar için 7/24 Bursa araç kapısı açma hizmeti sağlayarak, yolda kaldığınızda ya da acil bir durumda size en hızlı şekilde ulaşıyoruz. Kilide veya kapıya zarar vermeden gerçekleştirdiğimiz işlemler, hem güvenlik hem de konfor sunar. Aracınızın güvenliği için uzman bir çözüme ihtiyaç duyduğunuzda, profesyonel çilingir desteğimizle yanınızdayız.
+                                    Acil durumlar için 7/24 hizmet veren Bursa araç kapısı açma ekibimiz, en hızlı şekilde size ulaşarak yolda kalmanızı önler. Kilide veya kapıya zarar vermeden yapılan işlemlerimiz, hem güvenli hem de konforlu bir çözüm sunar. Aracınız için uzman bir çözüme ihtiyaç duyduğunuz her an, profesyonel çilingir hizmetimizle yanınızdayız.
                                 </Typography>
                                 <div className="pt-4">
                                     <a href="tel:05426910157">

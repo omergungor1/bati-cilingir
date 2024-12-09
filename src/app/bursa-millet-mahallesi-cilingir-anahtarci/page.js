@@ -31,11 +31,11 @@ export default function Blog() {
                                     Bursa Millet Acil Çilingir | 7/24 Hızlı, Ekonomik ve Güvenilir Çilingir
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-800">
-                                    <b>Bursa Millet Çilingir Anahtarcı</b> hizmetleriyle güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan 7/24 acil çilingir hizmetimize ulaşabilir, Bursa’nın her noktasına 15 dakika içinde kapınıza gelmemizi sağlayabilirsiniz.
+                                    <b>Bursa Millet Çilingir Anahtarcı</b> olarak güvenilir ve uygun fiyatlı çilingir hizmetleri sunuyoruz. <b>0542 691 01 57</b> numaramızdan bize 7/24 ulaşabilir, Bursa’nın her yerine 15 dakika içinde ulaşmamızı sağlayabilirsiniz.
                                     <br /><br />
-                                    <b>Bursa Millet Çilingir Anahtarcı</b> olarak, size en yakın çilingir ekibimiz anında yanınızda. Oto çilingir ve kapı açma ihtiyaçlarınızı hızlı ve profesyonel çözümlerle karşılıyoruz.
+                                    <b>Bursa Millet Çilingir Anahtarcı</b>, size en yakın ekibiyle oto çilingir ve kapı açma ihtiyaçlarınıza hızlı ve profesyonel çözümler sunar.
                                     <br /><br />
-                                    <b>Bursa Millet Çilingir Anahtarcı</b>, tecrübeli ekibimiz ve modern ekipmanlarımızla oto çilingir, kapı açma ve anahtar çoğaltma gibi hizmetlerde Bursa genelinde en hızlı hizmeti sunmaktadır.
+                                    Tecrübeli kadromuz ve modern ekipmanlarımızla Bursa Millet Çilingir Anahtarcı, oto çilingir, kapı açma ve anahtar çoğaltma hizmetlerinde Bursa’da en hızlı ve etkili hizmeti sağlar.
                                 </Typography>
 
                                 <div className="pt-4">

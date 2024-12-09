@@ -31,11 +31,11 @@ export default function Blog() {
                                     Bursa Emek Acil Çilingir | 7/24 Hızlı, Ekonomik ve Güvenilir Çilingir
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-800">
-                                    <b>Bursa Emek Çilingir Anahtarcı</b> hizmetleriyle güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan 7/24 acil çilingir hizmetimize ulaşabilir, Bursa’nın her noktasına 15 dakika içinde kapınıza gelmemizi sağlayabilirsiniz.
+                                    <b>Bursa Emek Çilingir Anahtarcı</b> olarak güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan bize 7/24 ulaşabilir ve Bursa’nın her bölgesine 15 dakika içinde hizmet alabilirsiniz.
                                     <br /><br />
-                                    <b>Bursa Emek Çilingir Anahtarcı</b> olarak, size en yakın çilingir ekibimiz anında yanınızda. Oto çilingir ve kapı açma ihtiyaçlarınızı hızlı ve profesyonel çözümlerle karşılıyoruz.
+                                    <b>Bursa Emek Çilingir Anahtarcı</b> ekibi, size en yakın çilingir desteğini anında sağlıyor. Oto çilingir ve kapı açma ihtiyaçlarınızda hızlı ve profesyonel çözümler sunmaktayız.
                                     <br /><br />
-                                    <b>Bursa Emek Çilingir Anahtarcı</b>, tecrübeli ekibimiz ve modern ekipmanlarımızla oto çilingir, kapı açma ve anahtar çoğaltma gibi hizmetlerde Bursa genelinde en hızlı hizmeti sunmaktadır.
+                                    Tecrübeli ekibimiz ve modern ekipmanlarımızla, <b>Bursa Emek Çilingir Anahtarcı</b> olarak oto çilingir, kapı açma ve anahtar çoğaltma hizmetlerinde Bursa genelinde en hızlı ve etkili hizmeti vermekteyiz.
                                 </Typography>
 
                                 <div className="pt-4">

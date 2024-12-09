@@ -31,11 +31,28 @@ export default function Blog() {
                                     Bursa Gürsu Acil Çilingir | 7/24 Hızlı, Ekonomik ve Güvenilir Çilingir
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-800">
-                                    <b>Bursa Gürsu Çilingir Anahtarcı</b> hizmetleriyle güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan 7/24 acil çilingir hizmetimize ulaşabilir, Bursa’nın her noktasına 15 dakika içinde kapınıza gelmemizi sağlayabilirsiniz.
+                                    Bursa Gürsu Çilingir Anahtarcı: Hızlı ve Güvenilir Çilingir Hizmetleri
+                                    Bursa’nın Gürsu ilçesinde sunduğumuz çilingir ve anahtarcı hizmetleri, güvenilirliği ve uygun fiyatlarıyla öne çıkmaktadır. Acil durumlarınızda, ev veya araç kapısı açma ihtiyaçlarınızda yanınızda olan ekibimiz, modern ekipmanlarla ve profesyonel bir yaklaşımla hizmet vermektedir. 0542 691 01 57 numaralı telefonumuzdan 7/24 bize ulaşabilir ve sadece 15 dakika içerisinde kapınıza ulaşmamızı sağlayabilirsiniz.
                                     <br /><br />
-                                    <b>Bursa Gürsu Çilingir Anahtarcı</b> olarak, size en yakın çilingir ekibimiz anında yanınızda. Oto çilingir ve kapı açma ihtiyaçlarınızı hızlı ve profesyonel çözümlerle karşılıyoruz.
+                                    Hızlı ve Profesyonel Çilingir Hizmetleri
+                                    Bursa Gürsu bölgesindeki çilingir ekibimiz, ihtiyaçlarınıza en hızlı şekilde cevap verecek şekilde konumlanmıştır. Ev veya iş yerinizde kapınızın kilitli kalması ya da anahtarınızı kaybetmeniz gibi acil durumlarda, uzman ekibimiz güvenliği ön planda tutarak kapılarınızı açmaktadır. Kapınıza zarar vermeden ve profesyonel ekipman kullanarak gerçekleştirdiğimiz hizmetler, size hem zaman kazandırır hem de gönül rahatlığı sağlar.
                                     <br /><br />
-                                    <b>Bursa Gürsu Çilingir Anahtarcı</b>, tecrübeli ekibimiz ve modern ekipmanlarımızla oto çilingir, kapı açma ve anahtar çoğaltma gibi hizmetlerde Bursa genelinde en hızlı hizmeti sunmaktadır.
+                                    Oto Çilingir Hizmetleri<br />
+                                    Araç kapısı açma işlemleri, dikkat ve uzmanlık gerektirir. Bursa Gürsu Çilingir Anahtarcı olarak, araç kapısı açma hizmetlerinde tecrübeli ekibimizle hizmet sunuyoruz. Aracınızın marka veya modeli ne olursa olsun, kapınıza veya kilidinize zarar vermeden araç içi erişiminizi en kısa sürede sağlıyoruz. Anahtarınızı aracın içinde unuttuğunuzda veya kaybettiğinizde, bizimle iletişime geçerek hızlı ve güvenilir bir çözüm alabilirsiniz.
+                                    <br /><br />
+                                    Modern ve Gelişmiş Ekipmanlarla Çalışıyoruz<br />
+                                    Hizmet kalitemizin temelini, modern ekipmanlar ve profesyonel uzmanlık oluşturmaktadır. Bursa Gürsu Çilingir Anahtarcı olarak, yalnızca kapı açma işlemleri değil, aynı zamanda anahtar çoğaltma, kilit değişimi ve güvenlik sistemlerinin kurulumu gibi konularda da en iyi çözümleri sunuyoruz. İhtiyacınıza uygun olarak kartlı geçiş sistemleri ve diğer güvenlik çözümleri için de destek alabilirsiniz.
+                                    <br /><br />
+                                    Neden Bursa Gürsu Çilingir Anahtarcı?
+                                    7/24 Hizmet: Günün her saatinde ulaşabileceğiniz ekibimiz, acil durumlarınızda yanınızda.
+                                    Hızlı Erişim: Bursa’nın her noktasına 15 dakika gibi kısa bir sürede ulaşım sağlıyoruz.
+                                    Uygun Fiyat: Kaliteli hizmeti bütçenizi zorlamadan sunuyoruz.
+                                    Uzman Kadro: Tecrübeli ve profesyonel çilingirlerimizle güvenli çözümler sağlıyoruz.
+                                    Geniş Hizmet Yelpazesi: Oto çilingir, kapı açma, anahtar çoğaltma ve daha fazlası.
+                                    İhtiyacınız Olduğunda Yanınızdayız
+                                    Ev kapınızı açamıyor musunuz? Aracınızın anahtarını mı kaybettiniz? Ya da iş yerinizin güvenlik sistemini yenilemek mi istiyorsunuz? Bursa Gürsu Çilingir Anahtarcı, tüm bu ihtiyaçlarınız için doğru adres! Sadece bir telefon kadar uzağınızdayız.
+                                    <br /><br />
+                                    Hızlı, güvenilir ve uygun fiyatlı çilingir hizmetlerimizden faydalanmak için 0542 691 01 57 numaramızdan bizimle iletişime geçin. Gürsu’da ve Bursa genelinde, kapınızın güvenliği bize emanet!
                                 </Typography>
 
                                 <div className="pt-4">

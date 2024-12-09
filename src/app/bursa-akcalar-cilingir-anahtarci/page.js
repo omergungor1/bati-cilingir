@@ -31,11 +31,11 @@ export default function Blog() {
                                     Bursa Akçalar Acil Çilingir | 7/24 Hızlı, Ekonomik ve Güvenilir Çilingir
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-800">
-                                    <b>Bursa Akçalar Çilingir Anahtarcı</b> hizmetleriyle güvenilir ve uygun fiyatlı çözümler sunuyoruz. <b>0542 691 01 57</b> numaramızdan 7/24 acil çilingir hizmetimize ulaşabilir, Bursa’nın her noktasına 15 dakika içinde kapınıza gelmemizi sağlayabilirsiniz.
+                                    <b>Bursa Akçalar Çilingir Anahtarcı</b> olarak güvenilir ve uygun fiyatlı hizmetler sunmaktayız. <b>0542 691 01 57</b> numarasından 7/24 bize ulaşabilir, Bursa’nın her yerine 15 dakika içinde gelmemizi sağlayabilirsiniz.
                                     <br /><br />
-                                    <b>Bursa Akçalar Çilingir Anahtarcı</b> olarak, size en yakın çilingir ekibimiz anında yanınızda. Oto çilingir ve kapı açma ihtiyaçlarınızı hızlı ve profesyonel çözümlerle karşılıyoruz.
+                                    <b>Bursa Akçalar Çilingir Anahtarcı</b>, size en yakın ekip ile oto çilingir ve kapı açma ihtiyaçlarınıza hızlı ve profesyonel çözümler sunar.
                                     <br /><br />
-                                    <b>Bursa Akçalar Çilingir Anahtarcı</b>, tecrübeli ekibimiz ve modern ekipmanlarımızla oto çilingir, kapı açma ve anahtar çoğaltma gibi hizmetlerde Bursa genelinde en hızlı hizmeti sunmaktadır.
+                                    Deneyimli ekibimiz ve modern ekipmanlarımızla <b>Bursa Akçalar Çilingir Anahtarcı</b>, oto çilingir, kapı açma ve anahtar çoğaltma hizmetlerinde Bursa genelinde en hızlı desteği sağlar.
                                 </Typography>
 
                                 <div className="pt-4">
