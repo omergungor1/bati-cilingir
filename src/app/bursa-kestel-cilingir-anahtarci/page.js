@@ -31,7 +31,7 @@ export default function Blog() {
                                     Bursa Kestel Acil Çilingir | 7/24 Hızlı, Ekonomik ve Güvenilir Çilingir
                                 </Typography>
                                 <Typography className="mb-1 w-full font-normal !text-gray-800">
-                                    Bursa'nın Kestel ilçesinde acil çilingir hizmetine mi ihtiyacınız var? Bursa Kestel Çilingir Anahtarcı olarak, kapı açma, oto çilingir ve anahtar çoğaltma gibi hizmetlerle güvenliğinizi sağlıyoruz. 7/24 aktif olan hizmetimizle, güvenilir ve uygun fiyatlı çözümler sunuyoruz. Hızlı bir şekilde profesyonel desteğe ulaşmak için 0542 691 01 57 numarasını arayarak, Bursa’nın her köşesine 15 dakika içerisinde ulaşmamızı sağlayabilirsiniz.
+                                    Bursa’nın Kestel ilçesinde acil çilingir hizmetine mi ihtiyacınız var? Bursa Kestel Çilingir Anahtarcı olarak, kapı açma, oto çilingir ve anahtar çoğaltma gibi hizmetlerle güvenliğinizi sağlıyoruz. 7/24 aktif olan hizmetimizle, güvenilir ve uygun fiyatlı çözümler sunuyoruz. Hızlı bir şekilde profesyonel desteğe ulaşmak için 0542 691 01 57 numarasını arayarak, Bursa’nın her köşesine 15 dakika içerisinde ulaşmamızı sağlayabilirsiniz.
                                     <br /><br />
                                     Kestel ve Bursa Genelinde 7/24 Hızlı Çilingir Hizmetleri<br />
                                     Bursa Kestel Çilingir Anahtarcı olarak, herhangi bir acil durumla karşılaştığınızda sizi yalnız bırakmıyoruz. Evinizden aracınıza kadar her türlü kapı açma işleminiz için hızlı, güvenli ve profesyonel hizmet sunuyoruz. Acil durumlarda 7/24 hizmet vererek, gündüz-gece fark etmeden her zaman yanınızdayız.
@@ -40,7 +40,7 @@ export default function Blog() {
                                     Oto Çilingir Hizmetleri: Araç kilitleri ve anahtarlarıyla ilgili her türlü sorunuzu çözebilecek deneyime sahibiz. Araçlarınızdaki kilit sorunlarını anında çözüyoruz.
                                     Anahtar Çoğaltma: Kaybolan veya bozulmuş anahtarlarınızı kolayca ve hızlıca çoğaltıyoruz, böylece bir tane kaybolduğunda tekrar sorun yaşamazsınız.
                                     Bursa’nın Her Noktasına 15 Dakika İçinde Ulaşım
-                                    Zamanınız değerli, bu yüzden Bursa Kestel Çilingir Anahtarcı olarak, 15 dakika içinde adresinize ulaşma garantisi veriyoruz. İster Kestel’de ister Bursa'nın diğer ilçelerinde olun, güvenliğinizi ve rahatlığınızı sağlayacak çözümler için sadece bir telefon kadar uzağınızdayız.
+                                    Zamanınız değerli, bu yüzden Bursa Kestel Çilingir Anahtarcı olarak, 15 dakika içinde adresinize ulaşma garantisi veriyoruz. İster Kestel’de ister Bursa’nın diğer ilçelerinde olun, güvenliğinizi ve rahatlığınızı sağlayacak çözümler için sadece bir telefon kadar uzağınızdayız.
                                     <br /><br />
                                     Profesyonel Ekip, Modern Ekipmanlar<br />
                                     Bursa Kestel Çilingir Anahtarcı olarak, deneyimli ve sertifikalı çilingirlerimizle en güvenilir çözümleri sunuyoruz. Ekipmanlarımız son teknolojiye sahip olup, kapılarınıza veya araçlarınıza zarar vermeden işinizi hallediyoruz. İster evde, ister işyerinizde, modern ekipmanlarımızla hızlı bir çözüm sunuyoruz.
